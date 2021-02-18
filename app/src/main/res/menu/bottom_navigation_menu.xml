@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/sleep_navigation"
+        android:icon="@drawable/tab_menu_sleep"
+        android:title="sleep"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/alarm_navigation"
+        android:icon="@drawable/ic_tab_bell"
+        android:title="alarm"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/diary_navigation"
+        android:icon="@drawable/tab_menu_diary"
+        android:title="diary"
+        app:showAsAction="withText" />
+<!--    <item-->
+<!--        android:id="@+id/statictis_navigation"-->
+<!--        android:icon="@drawable/tab_menu_statictis"-->
+<!--        android:title="statictis"-->
+<!--        app:showAsAction="withText" />-->
+</menu>
